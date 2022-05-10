@@ -16,7 +16,7 @@ nav li a{
 }
 
 nav li a:hover{
-    background-color: lightyellow;
+    background-color: rgb(178, 194, 249);
     color:red
 }
 
