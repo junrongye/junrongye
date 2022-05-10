@@ -7,18 +7,24 @@ aside{
     height: 200px;
     background-color:#DEBB8A;
     float: left;
-    width:50%;
+    width:20%;
 }
 
 section{
     height: 200px;
     background-color:#FAC48E;
     float: right;
-    width:50%;
+    width:80%;
 }
 
 footer{
     height: 100px;
     background-color:#DEC68A;
     clear: both;
+}
+
+.post{
+    text-align: center;
+    padding: 10px;
+    float: left;
 }
