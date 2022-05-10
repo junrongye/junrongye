@@ -14,3 +14,8 @@ nav li a{
     padding: 10px;
     color: white;
 }
+
+nav li a:hover{
+    background-color: lightyellow;
+    color:red
+}
