@@ -1,5 +1,5 @@
 nav{
-    background-color: pink;
+    background-color: rgb(178, 194, 249);
     text-align: center;
 }
 
@@ -16,7 +16,7 @@ nav li a{
 }
 
 nav li a:hover{
-    background-color: rgb(178, 194, 249);
+    background-color: lightyellow;
     color:red
 }
 
