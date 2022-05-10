@@ -32,6 +32,36 @@ nav li a:hover{
     background-color: lightyellow;
     color:red
 }
+header{
+    height: 200px;
+    background-color:#F5D9A5;
+}
+
+aside{
+    height: 200px;
+    background-color:#DEBB8A;
+    float: left;
+    width:20%;
+}
+
+section{
+    height: 200px;
+    background-color:#FAC48E;
+    float: right;
+    width:80%;
+}
+
+footer{
+    height: 100px;
+    background-color:#DEC68A;
+    clear: both;
+}
+
+.post{
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
 h1{
     width: 550px;
     margin: 30px auto;
