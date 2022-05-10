@@ -28,3 +28,24 @@ li a{
     display: block;
     text-decoration: none;
 }
+nav{
+    background-color: pink;
+    text-align: center;
+}
+
+nav li{
+    list-style-type:none;
+    display: inline-block;
+}
+
+nav li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+nav li a:hover{
+    background-color: lightyellow;
+    color:red
+}
