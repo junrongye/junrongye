@@ -1,0 +1,37 @@
+body,ul{
+    margin: 0px;
+}
+
+nav{
+    background-color: lightblue;
+}
+
+nav ul{
+    display: flex;
+    justify-content: right;
+}
+
+nav li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+nav a:hover{
+    background-color: lightyellow;
+    color: blue;
+    transition: background-color is linear, color is ease-in;
+}
+
+/*標題列樣式設定*/
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 192, 203,80%);
+}
