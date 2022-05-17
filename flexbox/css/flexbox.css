@@ -1,5 +1,12 @@
+/*導覽列樣式設定*/
 body,ul{
     margin: 0px;
+}
+
+header{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
 }
 
 nav{
@@ -34,4 +41,26 @@ nav a:hover{
     justify-content: space-around;
     align-items: center;
     background-color: rgba(255, 192, 203,80%);
+}
+
+/*照片清單樣式設定*/
+#photolist ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+}
+
+#photolist li{
+    list-style-type: none;
+    margin: 10px;
+}
+
+#photolist img{
+    border-radius: 10%;
+    box-shadow: 5px 5px 10px grey;
+}
+
+#pohotolist .emptyitem{
+    width: 200px;
 }
