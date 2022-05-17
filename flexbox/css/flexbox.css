@@ -64,3 +64,11 @@ nav a:hover{
 #pohotolist .emptyitem{
     width: 200px;
 }
+
+.gotop{
+    font-size: 60px;
+    color: blue;
+    position: fixed;
+    right: 10px;
+    bottom: 50px;
+}
